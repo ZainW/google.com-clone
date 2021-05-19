@@ -7,7 +7,7 @@ import Components from 'vite-plugin-components'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue(), ViteIcons(), Components({
-    customComponentResolvers: ViteIconsResolver(),
+    customComponentResolvers: ViteIconsResolver({componentPrefix: '',}),
   })],
   
 })
