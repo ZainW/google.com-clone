@@ -1,6 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
+  <div class="flex justify-between">
+    <div>
+      <span class="mx-2">About</span>
+      <span>Store</span>
+    </div>
+    <div>
+      <span>Gmail</span>
+      <span>Images</span>
+    </div>
+  </div>
 </template>
 
 <script lang="ts">
@@ -16,12 +24,5 @@ export default defineComponent({
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
