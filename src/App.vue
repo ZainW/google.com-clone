@@ -8,7 +8,7 @@
       <span>Gmail</span>
       <span>Images</span>
       <span>dd placeholder</span>
-      <span><bi-person class="h-10 w-10 rounded-full border-dark-900 border-4 inline-flex "/></span>
+      <span><bi-person class="h-10 w-10 rounded-full border-dark-900 border-4 inline-flex " /></span>
     </div>
   </div>
 </template>
@@ -17,7 +17,7 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: 'App',
+  name: "App",
 })
 </script>
 
